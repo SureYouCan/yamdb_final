@@ -42,7 +42,7 @@ jobs:
         with:
           context: ./api_yamdb
           push: true
-          tags: sureyoucan/yamdb:latest
+          tags: sureyoucan/yamdb_final:latest
   deploy:
     runs-on: ubuntu-latest
     needs: build_and_push_to_docker_hub
